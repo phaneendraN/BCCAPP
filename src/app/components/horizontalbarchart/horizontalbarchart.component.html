@@ -1,0 +1,35 @@
+<!-- <div class="row">
+  <div class="col-6">
+    <div style="display: block;" class="chart-wrapper">
+      <canvas baseChart
+      [datasets]="barChartData"
+      [labels]="barChartLabels"
+      [options]="barChartOptions"
+      [plugins]="barChartPlugins"
+      [legend]="barChartLegend"
+      [type]="barChartType">
+    </canvas>
+    </div>
+  </div>
+</div>
+ -->
+
+ <div class="row">
+  <div class="col-12">
+    <div class="text-center">
+      <h4>Band Mix</h4>
+    </div>
+  </div>
+  <div class="col-6">
+    <div style="position: relative;" style=" display: block;">
+      <canvas baseChart [plugins]="barChartPlugins" [datasets]="recommededBarChartData" [labels]="barChartLabels" [options]="recommededBarChartOptions"
+        [legend]="barChartLegend" [type]="barChartType"></canvas>
+    </div>
+  </div>
+  <div class="col-6">
+    <div style="position: relative;" style="display: block;">
+      <canvas baseChart [plugins]="barChartPlugins" [datasets]="currentBarChartData" [labels]="barChartLabels" [options]="currentBarChartOptions"
+        [legend]="barChartLegend" [type]="barChartType"></canvas>
+    </div>
+  </div>
+</div>
