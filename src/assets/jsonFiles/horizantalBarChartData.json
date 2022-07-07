@@ -1,0 +1,90 @@
+{
+  "recommended": [
+    {
+      "SLName": "Digital Services & Solutions",
+      "% Band A,B,NA": 60,
+      "% Band C": 30,
+      "% Band D": 9,
+      "% Band E & Above": 1
+    },
+    {
+      "SLName": "Embedded Sys & Electronics Engg",
+      "% Band A,B,NA": 60,
+      "% Band C": 30,
+      "% Band D": 9,
+      "% Band E & Above": 1
+    },
+    {
+      "SLName": "Mechanical & Industrial Services",
+      "% Band A,B,NA": 60,
+      "% Band C": 30,
+      "% Band D": 9,
+      "% Band E & Above": 1
+    },
+    {
+      "SLName": "Network - Data - Geospatial",
+      "% Band A,B,NA": 93,
+      "% Band C": 4,
+      "% Band D": 2,
+      "% Band E & Above": 1
+    },
+    {
+      "SLName": "Plant Engineering",
+      "% Band A,B,NA": 60,
+      "% Band C": 30,
+      "% Band D": 9,
+      "% Band E & Above": 1
+    },
+    {
+      "SLName": "VLSI",
+      "% Band A,B,NA": 60,
+      "% Band C": 30,
+      "% Band D": 9,
+      "% Band E & Above": 1
+    }
+  ],
+  "current": [
+    {
+      "SLName": "Digital Services & Solutions",
+      "% Band A,B,NA": 46.3,
+      "% Band C": 40.87,
+      "% Band D": 9.65,
+      "% Band E & Above": 2.96
+    },
+    {
+      "SLName": "Embedded Sys & Electronics Engg",
+      "% Band A,B,NA": 73.49,
+      "% Band C": 20.92,
+      "% Band D": 4.37,
+      "% Band E & Above": 1.22
+    },
+    {
+      "SLName": "Mechanical & Industrial Services",
+      "% Band A,B,NA": 59.36,
+      "% Band C": 31.92,
+      "% Band D": 7.69,
+      "% Band E & Above": 0.98
+    },
+    {
+      "SLName": "Network - Data - Geospatial",
+      "% Band A,B,NA": 93.24,
+      "% Band C": 5.08,
+      "% Band D": 1.26,
+      "% Band E & Above": 0.41
+    },
+    {
+      "SLName": "Plant Engineering",
+      "% Band A,B,NA": 39.17,
+      "% Band C": 52.55,
+      "% Band D": 7.06,
+      "% Band E & Above": 1.22
+    },
+    {
+      "SLName": "VLSI",
+      "% Band A,B,NA": 42.92,
+      "% Band C": 33.02,
+      "% Band D": 17.45,
+      "% Band E & Above": 6.37
+    }
+  ]
+}

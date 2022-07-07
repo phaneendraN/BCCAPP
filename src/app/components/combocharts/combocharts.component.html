@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-12">
+    <div class="text-center">
+      <h4>Band Mix</h4>
+    </div>
+  </div>
+  <div class="col-12">
+    <div style="display: block;height: calc(100vh - 25%);">
+      <canvas baseChart
+              [plugins]="barChartPlugins"
+              chartType="bar"
+              [datasets]="chart.datasets"
+              [labels]="chart.labels"
+              [options]="chart.options">
+      </canvas>
+    </div>
+  </div>
+</div>
+
+

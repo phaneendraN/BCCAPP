@@ -20,15 +20,15 @@
       <h4>Band Mix</h4>
     </div>
   </div>
-  <div class="col-6">
-    <div style="position: relative;" style=" display: block;">
-      <canvas baseChart [plugins]="barChartPlugins" [datasets]="recommededBarChartData" [labels]="barChartLabels" [options]="recommededBarChartOptions"
+  <div *ngIf="recommededBarChartData.length > 0" class="col-6">
+    <div style="display: block;height: 500px;">
+      <canvas baseChart [plugins]="barChartPlugins"  [datasets]="recommededBarChartData" [labels]="recommendedBarChartLabels" [options]="recommededBarChartOptions"
         [legend]="barChartLegend" [type]="barChartType"></canvas>
     </div>
   </div>
-  <div class="col-6">
-    <div style="position: relative;" style="display: block;">
-      <canvas baseChart [plugins]="barChartPlugins" [datasets]="currentBarChartData" [labels]="barChartLabels" [options]="currentBarChartOptions"
+  <div *ngIf="currentBarChartData.length > 0" class="col-6">
+    <div style="position: block;height: 500px;">
+      <canvas baseChart [plugins]="barChartPlugins" [datasets]="currentBarChartData" [labels]="currentBarChartLabels" [options]="currentBarChartOptions"
         [legend]="barChartLegend" [type]="barChartType"></canvas>
     </div>
   </div>
